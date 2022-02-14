@@ -1,0 +1,29 @@
+{
+  "name": "gb_js_shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "test": "jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^6.5.1",
+    "express": "^4.17.2",
+    "lodash": "^4.17.21",
+    "mini-css-extract-plugin": "^2.4.5",
+    "postcss": "^8.4.5",
+    "sass-loader": "^12.4.0",
+    "webpack-dev-server": "^4.7.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "jasmine": "^4.0.1",
+    "sass": "^1.47.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
